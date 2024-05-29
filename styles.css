@@ -1,0 +1,188 @@
+body{
+  font-family: "Montserrat";
+}
+
+.colored-section{
+  background-color: #BC7FCD;
+  color: #FFF2D7;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.white-section{
+  color: #000;
+  background-color: #FFCDEA;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.shadowed-text{
+  text-shadow: 0 0 5px rgb(255, 0, 0);
+}
+
+#title{
+  /* background-image: url("images/Banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color:#86469C;
+  color: #fff;
+}
+
+.profile-img{
+  width: 100%;
+  height: auto;
+  padding-left: 50%;
+  padding-right: 5%;
+  border-radius: 10%;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  font-weight: 500;
+}
+
+h3{
+  font-size: 1rem;
+  margin: 0.5rem;
+  color: #8F818F;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.trio-image{
+  width: 80%;
+}
+
+#features{
+
+}
+
+.fa-check-circle, .fa-bullseye, .fa-heart{
+  color: #BC7FCD;
+}
+
+.fa-heart:hover, .fa-bullseye:hover, .fa-check-circle:hover{
+  color: #BC7FCD;
+}
+
+#testimonials{
+  color: white;
+}
+
+#testimonials h2{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* #testimonials img{
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+} */
+
+.artwork-landscape img{
+  width: 100%;
+}
+
+#press{
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 0 20px;
+}
+
+#pricing{
+  padding: 6%;
+}
+
+.pricing-card{
+  padding: 3% 2%;
+}
+
+#downloads{
+  color: #BC7FCD;
+}
+
+#downloads a{
+  color: #FFCDEA;
+  text-decoration: none;
+}
+
+#downloads a:hover{
+  color: #BC7FCD;
+  text-decoration: none;
+}
+
+#footer{
+  padding: 7% 15% 2%;
+}
+
+#footer a{
+  margin: 10px;
+  color: #000;
+}
+
+#footer p{
+  margin: 20px;
+  color: #8F818F;
+  font-size: 0.8rem;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height: width) */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:1020px){
+  #title{
+    text-align: center;
+  }
+}
+
+
