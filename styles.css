@@ -17,24 +17,24 @@ body{
 }
 
 .shadowed-text{
-  text-shadow: 0 0 5px rgb(255, 0, 0);
+  text-shadow: 0 0 5px rgb(81, 172, 229);
 }
 
 #title{
   /* background-image: url("images/Banner2.jpg");
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color:#86469C;
+  background-color:#b180c1;
   color: #fff;
 }
 
 .banner a{
-  color: #FFCDEA;
+  color: #cfb6c5;
   text-decoration: none;
 }
 
 .banner a:hover{
-  color: #BC7FCD;
+  color: #d8b2e2;
   text-decoration: none;
 }
 
@@ -96,9 +96,6 @@ h3{
   width: 80%;
 }
 
-#features{
-
-}
 
 .fa-check-circle, .fa-bullseye, .fa-heart{
   color: #BC7FCD;
